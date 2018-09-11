@@ -31,7 +31,6 @@ namespace SignalRDemo.Controllers
         public ApplicationSignInManager SignInManager
         {
 
-
             get
             {
                 return _signInManager ?? HttpContext.GetOwinContext().Get<ApplicationSignInManager>();

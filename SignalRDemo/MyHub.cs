@@ -12,5 +12,11 @@ namespace SignalRDemo
         {
             Clients.All.Bannounce(message+" haha");
         }
+        public void getServerDateTime()
+        {
+            Clients.All.Bannounce("BanCho");
+            Clients.Caller.Bannounce(DateTime.Now.ToString());
+           
+        }
     }
 }

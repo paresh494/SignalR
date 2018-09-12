@@ -10,7 +10,7 @@ namespace SignalRDemo
     {
         public void Announce(string message)
         {
-            Clients.All.Bannounce(message);
+            Clients.All.Bannounce(message+" haha");
         }
     }
 }
